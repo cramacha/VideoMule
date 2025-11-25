@@ -51,3 +51,15 @@ You can easily adjust the simulation by changing parameters within the run_video
 | generate_simulated_data | Function | Creates random feature and multi-label matrices for the simulation. |
 | multilabel_tree_simulate | Function | Trains base models (Decision Tree, K-Means) and extracts initial soft predictions (beliefs). |
 | run_videomule_simulation | Function | Orchestrates the entire process from data generation to consensus and evaluation. |
+
+## Paper
+
+```
+@inproceedings{ramachandran2009videomule,
+  title={Videomule: a consensus learning approach to multi-label classification from noisy user-generated videos},
+  author={Ramachandran, Chandrasekar and Malik, Rahul and Jin, Xin and Gao, Jing and Nahrstedt, Klara and Han, Jiawei},
+  booktitle={Proceedings of the 17th ACM international conference on Multimedia},
+  pages={721--724},
+  year={2009}
+}
+```

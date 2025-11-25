@@ -44,7 +44,7 @@ You can easily adjust the simulation by changing parameters within the run_video
 | n_clusters | run_videomule_simulation | 4 | Number of clusters for the K-Means models. |
 | alpha | VideoMuleConsensus.__init__ | 0.9 | The propagation coefficient in the consensus step. |
 
-##Key Classes and Functions
+## Key Classes and Functions
 | Component | Type | Description |
 |---|---|---|
 | VideoMuleConsensus | Class | Implements the graph-based consensus learning using the Label Propagation technique. |
